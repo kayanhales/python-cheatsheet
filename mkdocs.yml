@@ -1,0 +1,22 @@
+site_name: Python Cheatsheet 🐍
+site_description: "Your quick-reference guide to Python — from basics to advanced."
+theme:
+  name: material
+  palette:
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+
+nav:
+  - Home: index.md
+  - Basics: basics.md
+  - Data Structures: data_structures.md
+  - Functions: functions.md
+  - OOP: oop.md
+  - File Handling: file_handling.md
+  - Shortcuts: shortcuts.md
